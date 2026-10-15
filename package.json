@@ -1,0 +1,32 @@
+{
+  "name": "stitch-craft",
+  "version": "1.0.0",
+  "description": "Awwwards-caliber Web & Motion Design Skill combining Google Stitch CLI, local machine UI/UX skills, multi-viewport Stitch Review, Scrollytelling, and Story Review.",
+  "main": "SKILL.md",
+  "scripts": {
+    "discover": "./scripts/discover_and_verify.sh discover",
+    "capture": "./scripts/discover_and_verify.sh capture",
+    "verify": "python3 ./scripts/verify_responsive.py"
+  },
+  "keywords": [
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "skills",
+    "google-stitch",
+    "stitch",
+    "scrollytelling",
+    "gsap",
+    "motion-design",
+    "web-design",
+    "awwwards",
+    "responsive-design",
+    "design-systems"
+  ],
+  "author": "Rnov24",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rnov24/stitch-craft.git"
+  }
+}

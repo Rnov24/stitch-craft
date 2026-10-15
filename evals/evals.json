@@ -1,0 +1,76 @@
+{
+  "skill_name": "stitch-craft",
+  "evals": [
+    {
+      "id": 1,
+      "name": "full-pipeline-interactive-scrollytelling",
+      "prompt": "I want to design a futuristic AI data provenance landing page called 'Provenance Labs'. Run the stitch-craft pipeline: start by discovering local design skills, interview me to create brief.md, craft the 4-beat Stitch generation prompt, and design a scrollytelling narrative.",
+      "expected_output": "The agent executes Phase 0 discovery, asks the 5-point discovery interview, writes brief.md, crafts an Awwwards-caliber 4-beat Stitch prompt with wide H1 and gapless bento grid, and specifies the scrollytelling motion layout with reduced-motion fallbacks.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "executes-skill-discovery",
+          "description": "Scans and merges machine design skills (gpt-taste, stitch-design-taste, scrollytelling)"
+        },
+        {
+          "name": "interviews-before-generating",
+          "description": "Does not blindly send prompts to Stitch; conducts the 5-point interview to establish brief.md"
+        },
+        {
+          "name": "structured-4-beat-prompt",
+          "description": "Uses [Canvas], [Principles], [Artwork & Assets], and [Content & Chapters] format"
+        },
+        {
+          "name": "scrollytelling-with-reduced-motion",
+          "description": "Defines narrative scroll stages with explicit prefers-reduced-motion: reduce handling"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "responsive-and-anti-slop-audit",
+      "prompt": "Here is our draft landing page code. Run the Stitch Responsive Review across Desktop (1440px), Tablet (768px), and Mobile (375px) to catch overflow-x drift, broken bento grids, and generic AI design clichés.",
+      "expected_output": "The agent runs discover_and_verify.sh capture or verify_responsive.py, identifies mobile breakages (such as lack of clamp, col-span overflows, or missing overflow-x guards), checks color and typography tokens, and provides concrete fixes.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "audits-three-viewports",
+          "description": "Specifically checks Desktop 1440px, Tablet 768px, and Mobile 375px"
+        },
+        {
+          "name": "detects-responsive-breakages",
+          "description": "Catches horizontal overflow, unconstrained widths, and bento grid collapse"
+        },
+        {
+          "name": "enforces-design-taste-rules",
+          "description": "Bans neon purple-blue gradients, enforces single accent color and modern typography"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "awwwards-story-and-pacing-review",
+      "prompt": "Our scrollytelling animations feel jarring and overwhelming. Review the motion design as an Awwwards Site of the Day judge: check narrative pacing, particle density, and readability over moving backgrounds.",
+      "expected_output": "The agent performs the Story Review: enforces 100vh+ breathing room per chapter, applies the 50% particle cut rule, adds backdrop blur scrims for readability, and purges robotic AI copywriting clichés.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "checks-narrative-pacing",
+          "description": "Verifies scroll runway (100vh-200vh) and non-linear intentional easing curves"
+        },
+        {
+          "name": "cuts-visual-noise",
+          "description": "Reduces particle count by 40-60% and lowers background opacity"
+        },
+        {
+          "name": "enforces-text-readability",
+          "description": "Requires backdrop scrims or blurs when text scrolls across moving elements"
+        },
+        {
+          "name": "purges-ai-copy-cliches",
+          "description": "Flags and replaces cliché phrases like 'Unleash the future' with authentic editorial copy"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "query": "I want to build an Awwwards-style scrollytelling landing page using Google Stitch CLI for my open source developer tool. Can you run the stitch motion master pipeline?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you design a high-craft animated website for our climate tech startup? We need sticky scroll animations and Stitch screen variants.",
+    "should_trigger": true
+  },
+  {
+    "query": "Please run the Stitch responsive review on my running dev server at localhost:3000 to see why mobile layout breaks compared to desktop.",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me write a brief.md and 4-beat Stitch prompt to generate screen designs for an editorial crypto portfolio.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you review my scroll-driven landing page like an Awwwards judge? The background animations feel way too busy and the text is hard to read.",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to clone the Google Stitch CLI and motion design workflow with multi-viewport testing.",
+    "should_trigger": true
+  },
+  {
+    "query": "Scan my machine for design skills and combine them with Google Stitch to create an interactive web experience.",
+    "should_trigger": true
+  },
+  {
+    "query": "Let's use stitch-craft to build our SaaS marketing page with GSAP ScrollTrigger and gapless bento grids.",
+    "should_trigger": true
+  },
+  {
+    "query": "Generate a DESIGN.md token file from my Stitch screen draft and validate it with the linter.",
+    "should_trigger": true
+  },
+  {
+    "query": "Our landing page scroll animations look cheap and robotic. Can you audit the motion pacing and cut down the particle noise?",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I stitch two PDF files together in python?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you write a unit test for my React user login form using Jest?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me fix a PostgreSQL connection timeout error in my Node.js backend.",
+    "should_trigger": false
+  },
+  {
+    "query": "What is the git command to cherry-pick a commit from another branch?",
+    "should_trigger": false
+  },
+  {
+    "query": "Calculate the Fibonacci sequence up to 50 in Rust.",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to stitch multiple MP4 video clips into one continuous video file using ffmpeg.",
+    "should_trigger": false
+  },
+  {
+    "query": "Configure an AWS S3 bucket policy to allow public read access for a static site.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you extract text from this scanned receipt image using OCR?",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain how Dijkstra's shortest path algorithm works with a code example in C++.",
+    "should_trigger": false
+  },
+  {
+    "query": "Set up a GitHub Actions workflow to run ESLint on every pull request.",
+    "should_trigger": false
+  }
+]
